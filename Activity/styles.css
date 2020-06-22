@@ -22,6 +22,7 @@ p{
     background-color: #E49FA5;
     float: right;
     border: 1px solid black;
+    position: relative;
 }
 
 .bg-gray{
