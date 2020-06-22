@@ -100,36 +100,8 @@ h1{
     }
   }
 
-.first-menu{
-    float: right;
-    background-color:#f06292
+  p{
+      background-color: grey;
+      color: black;
 
-    ;
-    }
-.p1-chicken{
-    border: 1px solid black;
-    background-color: grey;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: helvetica;
-    color: black;
-    padding-top: 25px;
-}
-
-
-}
-
-.second-menu{
-    float: right;
-    background-color: red;
-}
-
-.p2-beef{
-    border: 1px solid black;
-    background-color: grey;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: helvetica;
-    color: black;
-    padding-top: 25px;
-}
+  }
