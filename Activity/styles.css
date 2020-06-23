@@ -18,29 +18,44 @@ p{
     margin-left: auto;
 }
 
-.bg-pink{
-    background-color: #E49FA5;
-    float: right;
-    border: 1px solid black;
-    position: relative;
-}
-
 .bg-gray{
     background-color: gray;
     float: right;
 
 }
 
+.bg-pink{
+    background-color: #E49FA5;
+    float: right;
+    border: 1px solid black;
+    
+}
+
+.justify-content{
+  justify-content: space-between;
+}
+
+
 .bg-red{
     background-color: red;
     float: right;
     border: 1px solid black;
+    color: white;
 }
 
 .bg-orange{
     background-color: orange;
     float: right;
     border: 1px solid black;
+}
+
+.relative{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.absolute{
+  position: absolute;
 }
 
 
@@ -93,7 +108,7 @@ p{
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 992px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-      float: left;
+      float: right;
       border: 1px solid black;
     }
     .col-md-1 {
